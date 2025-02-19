@@ -14,7 +14,7 @@ public class Runner {
             if (choice == 0) {
                 process = new ProcessBuilder("./program").start();
             } else if (choice == 1) {
-                process = new ProcessBuilder("python3", "script.py").start();
+                process = new ProcessBuilder("python3", "audio_to_text.py").start();
             } else {
                 System.out.println("Invalid choice.");
                 scanner.close();

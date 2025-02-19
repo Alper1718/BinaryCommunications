@@ -1,5 +1,7 @@
 .vscode/
 build/
 dataset/
+received_audio/*
 sound0.wav
 sound1.wav
+binary_audio_model.keras
